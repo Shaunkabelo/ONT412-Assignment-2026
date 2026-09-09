@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\CallCenter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\singlecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\singlecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\onholdstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\onholdstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\oncallstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\oncallstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\icallstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\icallstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\icallcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\icallcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\hungupstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\hungupstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\callproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\callproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\calllogiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\calllogiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\calllog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\calllog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\callgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\callgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\models\\call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\models\\call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\92ed676b-6ae3-4da1-a28e-4eae9c17a626_CallCenterApp.zip.CallCenterApp.zip\\CallCenterApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\admin\\source\\repos\\callcenter\\callcenter\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SingleCall.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\SingleCall.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\SingleCall.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\SingleCall.cs",
+              "RelativeToolTip": "CallCenter\\Models\\SingleCall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:29:39.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OnHoldState.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\OnHoldState.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\OnHoldState.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\OnHoldState.cs",
+              "RelativeToolTip": "CallCenter\\Models\\OnHoldState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:28:55.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OnCallState.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\OnCallState.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\OnCallState.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\OnCallState.cs",
+              "RelativeToolTip": "CallCenter\\Models\\OnCallState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:28:18.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICallState.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\ICallState.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\ICallState.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\ICallState.cs",
+              "RelativeToolTip": "CallCenter\\Models\\ICallState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:27:36.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICallComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\ICallComponent.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\ICallComponent.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\ICallComponent.cs",
+              "RelativeToolTip": "CallCenter\\Models\\ICallComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:27:01.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Program.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Program.cs",
+              "RelativeToolTip": "CallCenter\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T08:19:30.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\MainForm.cs",
+              "RelativeDocumentMoniker": "CallCenter\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\MainForm.cs",
+              "RelativeToolTip": "CallCenter\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:04:40.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HungUpState.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\HungUpState.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\HungUpState.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\HungUpState.cs",
+              "RelativeToolTip": "CallCenter\\Models\\HungUpState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:26:20.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CallProxy.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\CallProxy.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\CallProxy.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\CallProxy.cs",
+              "RelativeToolTip": "CallCenter\\Models\\CallProxy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:25:40.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CallLogIterator.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\CallLogIterator.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\CallLogIterator.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\CallLogIterator.cs",
+              "RelativeToolTip": "CallCenter\\Models\\CallLogIterator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:25:01.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CallLog.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\CallLog.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\CallLog.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\CallLog.cs",
+              "RelativeToolTip": "CallCenter\\Models\\CallLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:24:14.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CallGroup.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\CallGroup.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\CallGroup.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\CallGroup.cs",
+              "RelativeToolTip": "CallCenter\\Models\\CallGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:23:28.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Call.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\Call.cs",
+              "RelativeDocumentMoniker": "CallCenter\\Models\\Call.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\Models\\Call.cs",
+              "RelativeToolTip": "CallCenter\\Models\\Call.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:22:38.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\92ed676b-6ae3-4da1-a28e-4eae9c17a626_CallCenterApp.zip.CallCenterApp.zip\\CallCenterApp\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\92ed676b-6ae3-4da1-a28e-4eae9c17a626_CallCenterApp.zip.CallCenterApp.zip\\CallCenterApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\92ed676b-6ae3-4da1-a28e-4eae9c17a626_CallCenterApp.zip.CallCenterApp.zip\\CallCenterApp\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\92ed676b-6ae3-4da1-a28e-4eae9c17a626_CallCenterApp.zip.CallCenterApp.zip\\CallCenterApp\\Program.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:19:28.04Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "CallCenter\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\MainForm.Designer.cs",
+              "RelativeToolTip": "CallCenter\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:05:17.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\MainForm.cs",
+              "RelativeDocumentMoniker": "CallCenter\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CallCenter\\CallCenter\\MainForm.cs [Design]",
+              "RelativeToolTip": "CallCenter\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:04:38.486Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
