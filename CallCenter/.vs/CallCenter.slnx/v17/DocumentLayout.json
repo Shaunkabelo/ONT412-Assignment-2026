@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\2026 Visual Studio\\ONT412-Assignment-2026\\CallCenter\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Raseb\\OneDrive\\Desktop\\CallCenter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|C:\\Users\\Raseb\\OneDrive\\Desktop\\CallCenter\\callcenter\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|c:\\users\\raseb\\onedrive\\desktop\\callcenter\\callcenter\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEB3892-1C89-47FC-B1E8-1E7483E06489}|CallCenter\\CallCenter.csproj|solutionrelative:callcenter\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Raseb\\OneDrive\\Desktop\\CallCenter\\CallCenter\\MainForm.cs",
+              "RelativeDocumentMoniker": "CallCenter\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Raseb\\OneDrive\\Desktop\\CallCenter\\CallCenter\\MainForm.cs",
+              "RelativeToolTip": "CallCenter\\MainForm.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T14:37:07.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Raseb\\OneDrive\\Desktop\\CallCenter\\CallCenter\\MainForm.cs",
+              "RelativeDocumentMoniker": "CallCenter\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Raseb\\OneDrive\\Desktop\\CallCenter\\CallCenter\\MainForm.cs [Design]",
+              "RelativeToolTip": "CallCenter\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T14:36:41.343Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
