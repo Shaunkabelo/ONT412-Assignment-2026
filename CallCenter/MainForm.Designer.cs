@@ -21,6 +21,9 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             lblTitle = new System.Windows.Forms.Label();
             lblCallerName = new System.Windows.Forms.Label();
             txtCallerName = new System.Windows.Forms.TextBox();
@@ -39,7 +42,15 @@
             btnGroupCalls = new System.Windows.Forms.Button();
             lblLogHeading = new System.Windows.Forms.Label();
             lblGroupsHeading = new System.Windows.Forms.Label();
-            lstCalls = new System.Windows.Forms.ListBox();
+            dgvCalls = new System.Windows.Forms.DataGridView();
+            colStartedAt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colCaller = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colReceiver = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colRole = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colDevice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colState = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colDuration = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             treeGroups = new System.Windows.Forms.TreeView();
             btnMakeCall = new System.Windows.Forms.Button();
             btnSpeak = new System.Windows.Forms.Button();
@@ -50,6 +61,7 @@
             lblStatus = new System.Windows.Forms.Label();
             lblSimulation = new System.Windows.Forms.Label();
             timerTick = new System.Windows.Forms.Timer(components);
+            ((System.ComponentModel.ISupportInitialize)dgvCalls).BeginInit();
             SuspendLayout();
             // 
             // lblTitle
@@ -214,7 +226,8 @@
             lblLogHeading.Name = "lblLogHeading";
             lblLogHeading.Size = new System.Drawing.Size(1200, 40);
             lblLogHeading.TabIndex = 16;
-            lblLogHeading.Text = "Virtual call log - select a completed call to return it";
+            lblLogHeading.Text = "Virtual call log";
+            lblLogHeading.Click += lblLogHeading_Click;
             // 
             // lblGroupsHeading
             // 
@@ -225,17 +238,115 @@
             lblGroupsHeading.TabIndex = 17;
             lblGroupsHeading.Text = "Calls grouped by caller role";
             // 
-            // lstCalls
+            // dgvCalls
             // 
-            lstCalls.FormattingEnabled = true;
-            lstCalls.HorizontalScrollbar = true;
-            lstCalls.IntegralHeight = false;
-            lstCalls.Location = new System.Drawing.Point(13, 332);
-            lstCalls.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            lstCalls.Name = "lstCalls";
-            lstCalls.Size = new System.Drawing.Size(1198, 431);
-            lstCalls.TabIndex = 18;
-            lstCalls.SelectedIndexChanged += lstCalls_SelectedIndexChanged;
+            dgvCalls.AllowUserToAddRows = false;
+            dgvCalls.AllowUserToDeleteRows = false;
+            dgvCalls.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dgvCalls.BackgroundColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            dgvCalls.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dgvCalls.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvCalls.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { colStartedAt, colCaller, colReceiver, colRole, colDevice, colState, colDuration, colId });
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            dgvCalls.DefaultCellStyle = dataGridViewCellStyle3;
+            dgvCalls.Location = new System.Drawing.Point(13, 332);
+            dgvCalls.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            dgvCalls.MultiSelect = false;
+            dgvCalls.Name = "dgvCalls";
+            dgvCalls.ReadOnly = true;
+            dgvCalls.RowHeadersVisible = false;
+            dgvCalls.RowHeadersWidth = 62;
+            dgvCalls.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            dgvCalls.Size = new System.Drawing.Size(1198, 431);
+            dgvCalls.TabIndex = 18;
+            dgvCalls.SelectionChanged += DgvCalls_SelectionChanged;
+            // 
+            // colStartedAt
+            // 
+            dataGridViewCellStyle2.Format = "yyyy-MM-dd HH:mm:ss";
+            colStartedAt.DefaultCellStyle = dataGridViewCellStyle2;
+            colStartedAt.FillWeight = 180F;
+            colStartedAt.HeaderText = "Call made at";
+            colStartedAt.MinimumWidth = 100;
+            colStartedAt.Name = "colStartedAt";
+            colStartedAt.ReadOnly = true;
+            colStartedAt.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colCaller
+            // 
+            colCaller.FillWeight = 150F;
+            colCaller.HeaderText = "Caller";
+            colCaller.MinimumWidth = 100;
+            colCaller.Name = "colCaller";
+            colCaller.ReadOnly = true;
+            colCaller.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colReceiver
+            // 
+            colReceiver.FillWeight = 150F;
+            colReceiver.HeaderText = "Receiver";
+            colReceiver.MinimumWidth = 100;
+            colReceiver.Name = "colReceiver";
+            colReceiver.ReadOnly = true;
+            colReceiver.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colRole
+            // 
+            colRole.FillWeight = 110F;
+            colRole.HeaderText = "Role";
+            colRole.MinimumWidth = 100;
+            colRole.Name = "colRole";
+            colRole.ReadOnly = true;
+            colRole.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colDevice
+            // 
+            colDevice.FillWeight = 165F;
+            colDevice.HeaderText = "Device";
+            colDevice.MinimumWidth = 100;
+            colDevice.Name = "colDevice";
+            colDevice.ReadOnly = true;
+            colDevice.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colState
+            // 
+            colState.FillWeight = 110F;
+            colState.HeaderText = "State";
+            colState.MinimumWidth = 100;
+            colState.Name = "colState";
+            colState.ReadOnly = true;
+            colState.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colDuration
+            // 
+            colDuration.FillWeight = 110F;
+            colDuration.HeaderText = "Talk duration";
+            colDuration.MinimumWidth = 100;
+            colDuration.Name = "colDuration";
+            colDuration.ReadOnly = true;
+            colDuration.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colId
+            // 
+            colId.FillWeight = 110F;
+            colId.HeaderText = "Call ID";
+            colId.MinimumWidth = 100;
+            colId.Name = "colId";
+            colId.ReadOnly = true;
+            colId.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // treeGroups
             // 
@@ -330,7 +441,6 @@
             lblSimulation.Name = "lblSimulation";
             lblSimulation.Size = new System.Drawing.Size(1614, 50);
             lblSimulation.TabIndex = 27;
-            lblSimulation.Text = "Simulation: talk time pauses on hold. Smartphone and telephone choices do not connect to a real phone network.";
             // 
             // timerTick
             // 
@@ -341,7 +451,7 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(1677, 1050);
+            ClientSize = new System.Drawing.Size(1677, 1022);
             Controls.Add(lblTitle);
             Controls.Add(lblCallerName);
             Controls.Add(txtCallerName);
@@ -360,7 +470,7 @@
             Controls.Add(btnGroupCalls);
             Controls.Add(lblLogHeading);
             Controls.Add(lblGroupsHeading);
-            Controls.Add(lstCalls);
+            Controls.Add(dgvCalls);
             Controls.Add(treeGroups);
             Controls.Add(btnMakeCall);
             Controls.Add(btnSpeak);
@@ -378,6 +488,7 @@
             Text = "Assignment 2 - Student Call Center";
             FormClosing += ClosingDashboard;
             Load += MainForm_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvCalls).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -401,7 +512,7 @@
         private System.Windows.Forms.Button btnGroupCalls;
         private System.Windows.Forms.Label lblLogHeading;
         private System.Windows.Forms.Label lblGroupsHeading;
-        private System.Windows.Forms.ListBox lstCalls;
+        private System.Windows.Forms.DataGridView dgvCalls;
         private System.Windows.Forms.TreeView treeGroups;
         private System.Windows.Forms.Button btnMakeCall;
         private System.Windows.Forms.Button btnSpeak;
@@ -412,6 +523,15 @@
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblSimulation;
         private System.Windows.Forms.Timer timerTick;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colStartedAt;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCaller;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colReceiver;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colRole;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDevice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colState;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDuration;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colId;
+
     }
 }
 

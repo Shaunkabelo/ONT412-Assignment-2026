@@ -31,3 +31,20 @@ C:\Users\Raseb\OneDrive\Desktop\Assignment 2\CallCenter\obj\Debug\net9.0-windows
 C:\Users\Raseb\OneDrive\Desktop\Assignment 2\CallCenter\obj\Debug\net9.0-windows\CallCenter.Assignment2.pdb
 C:\Users\Raseb\OneDrive\Desktop\Assignment 2\CallCenter\obj\Debug\net9.0-windows\CallCenter.genruntimeconfig.cache
 C:\Users\Raseb\OneDrive\Desktop\Assignment 2\CallCenter\obj\Debug\net9.0-windows\ref\CallCenter.Assignment2.dll
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\bin\Debug\net9.0-windows\CallCenter.Assignment2.exe
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\bin\Debug\net9.0-windows\CallCenter.Assignment2.deps.json
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\bin\Debug\net9.0-windows\CallCenter.Assignment2.runtimeconfig.json
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\bin\Debug\net9.0-windows\CallCenter.Assignment2.dll
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\bin\Debug\net9.0-windows\CallCenter.Assignment2.pdb
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\CallCenterApp.MainForm.resources
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\CallCenter.csproj.GenerateResource.cache
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\CallCenter.GeneratedMSBuildEditorConfig.editorconfig
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\CallCenter.AssemblyInfoInputs.cache
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\CallCenter.AssemblyInfo.cs
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\CallCenter.csproj.CoreCompileInputs.cache
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\CallCenter.sourcelink.json
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\CallCenter.Assignment2.dll
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\refint\CallCenter.Assignment2.dll
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\CallCenter.Assignment2.pdb
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\CallCenter.genruntimeconfig.cache
+F:\2026 Visual Studio\ONT412-Assignment-2026\CallCenter\obj\Debug\net9.0-windows\ref\CallCenter.Assignment2.dll

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raseb\\OneDrive\\Desktop\\Assignment 2\\CallCenter\\CallCenter.csproj",
+      "projectUniqueName": "F:\\2026 Visual Studio\\ONT412-Assignment-2026\\CallCenter\\CallCenter.csproj",
       "projectName": "CallCenter.Assignment2",
-      "projectPath": "C:\\Users\\Raseb\\OneDrive\\Desktop\\Assignment 2\\CallCenter\\CallCenter.csproj",
+      "projectPath": "F:\\2026 Visual Studio\\ONT412-Assignment-2026\\CallCenter\\CallCenter.csproj",
       "packagesPath": "C:\\Users\\Raseb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raseb\\OneDrive\\Desktop\\Assignment 2\\CallCenter\\obj\\",
+      "outputPath": "F:\\2026 Visual Studio\\ONT412-Assignment-2026\\CallCenter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

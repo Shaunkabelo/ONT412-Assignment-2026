@@ -9,6 +9,7 @@
     <AssemblyName>CallCenter.Assignment2</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Verification\**\*.cs" />
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
